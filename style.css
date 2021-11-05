@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+    background-color: #01202c;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+
+input {
+    color: #fff;
+}
+
+h2, h4, li {
+    color: #2bbbad;
+}
+
+li {
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+span {
+    font-weight: 400;
+    color: #f0f7d4;
+}
+
+.animate-in {
+    position: relative;
+    animation: animate-in .4s ease-in;
+}
+
+@keyframes animate-in {
+    from {
+        left: -500px;
+        opacity: 0;
+    }
+    to {
+        left: 0;
+        opacity: 1;
+    }
+}
